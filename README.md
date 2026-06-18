@@ -7,7 +7,7 @@
 
 **GitHub repository URL:** *(https://github.com/Deni-tjiobang/Final_Exam_DENICKA.git)*
 
-**Render application URL:** *PASTE YOUR RENDER URL HERE*
+**Render application URL:** *(https://final-exam-denicka.onrender.com)
 
 ---
 

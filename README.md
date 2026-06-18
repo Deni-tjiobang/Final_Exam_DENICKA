@@ -39,23 +39,24 @@
 
 ### Presentation endpoint
 
-**URL:** *PASTE YOUR RENDER URL HERE/presentation*
+**URL:** *(https://final-exam-denicka.onrender.com/presentation)*
 
-**Expected result:** *Result of the call*
+**Expected result:** *Final Exam - Production*
 
 ### Correction endpoint
 
-**URL:** *PASTE YOUR RENDER URL HERE/correction*
+**URL:** *(https://final-exam-denicka.onrender.com/correction)*
 
-**Error after first call:** *Put the result of the first call*
+**Error after first call:** *Cannot GET /correction*
 
-**Expected result after correction:** *Put the result of the call after the correction*
+**Expected result after correction:** *Correction endpoint is working*
 
 ---
 
 ## Error detection
-
-Briefly explain what you corrected and how you moved the correction from staging to production.
+app.get('/correction', (req, res) => {
+  res.sen('Correction endpoint is working');
+});...the error is the sen_ command.
 
 **Explanation:**  
-*WRITE YOUR EXPLANATION HERE*
+The sen error is being treated as undefined 
